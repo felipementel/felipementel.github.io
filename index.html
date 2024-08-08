@@ -1,34 +1,257 @@
 <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-      <meta charset="UTF-8">
-      <title>EAS Eletric Auto Share</title>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-      <meta name="description" content="Description">
-      <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-      <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-    </head>
-    
+<html lang="en">
+<head> 
+    <title>Felipe Pimentel Augusto Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/> 
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easytabs.min.js"></script>   
+</head>
     <body>
-      <div id="app"></div>
-      <script>
-        window.$docsify = {
-  "name": "EAS Eletric Auto Share",
-  "repo": "",
-  "loadSidebar": true,
-  "auto2top": true,
-  "homepage": "HOME.md",
-  "plantuml": {
-    "skin": "classic"
-  },
-  "stylesheet": "//unpkg.com/docsify/lib/themes/vue.css"
-};
-      </script>
-      <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-      <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
-      <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+        <div id="container">
+            <div id="content" >
+                <div class="menu">
+                	<ul class="tabs">
+                    	<li><a href="#profile" class="profile-tab">Profile</a></li>
+                    	<li><a href="#resume" class="resume-tab">Resume</a></li>
+                        <li><a href="#certifications" class="certification-tab">Certification</a></li>
+                    	<li><a href="#portfolio" class="portfolio-tab">Portfolio</a></li>
+                    	<!-- <li><a href="#connect" class="connect-tab">Connect</a></li> -->
+                    </ul>
+                </div>
+
+                <div id="profile"> 
+                	<div class="about">
+                    	<div class="profile-photo"><img src="images/profile-picture.png" width="127" height="154"/></div>
+                        <h1>Felipe Augusto</h1>
+                        <h3><i>System and Solution Architecture</i></h3>
+                        <p>.NET and Azure Specialist</p>
+                    </div>
+
+					
+                	<ul class="basic-info">
+					<li><h3>BASIC INFO</h3></li>
+						<li><label>Name</label><span>Felipe Pimentel Augusto</span></li>
+                        <li><label>Based on</label><span>Curitiba, PR - Brazil</span></li>
+                        <li><label>LinkedIn</label><span></span></li>
+                        <li><label>   https://www.linkedin.com/in/felipementel</label><span></span></li>
+                        <li><label>YouTube</label><span></span></li>
+                        <li><label>https://www.youtube.com/@D.E.P.L.O.Y</label><span></span></li>
+                    </ul>
+                </div>        
+
+
+                <div id="resume">
+                    <div class="resume-section">  
+                        <h3 class="main-heading">Educational Background</h3>   
+                            <ul class="date">
+                            <li>            
+                                <div class="date-box">
+                                    <h4>Post-Graduation – MIT Systems Architecture<span class="date-range">2020 - 2021</span></h4>
+                                    <h5>INFNET Institute, RJ</h5>
+                                </div>
+                            </li>
+                            <li>            
+                                <div class="date-box">
+                                    <h4>Post-Graduation<span class="date-range">Locked in 2010.2</span></h4>
+                                    <h5>PUC, RJ</h5>
+                                </div>
+                            </li>
+                            <li>            
+                                <div class="date-box">
+                                    <h4>Bachelor of Science in Computer Science<span class="date-range">2004 - 2007</span></h4>
+                                    <h5>Gama Filho University, RJ</h5>
+                                </div>
+                            </li>
+                            <li>            
+                                <div class="date-box">
+                                    <h4>Middle school<span class="date-range">Completed in 2002</span></h4>
+                                    <h5>Colégio Pinheiro, RJ</h5>
+                                </div>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+
+                        
+                        <h3 class="main-heading">Employment History</h3>   
+                            <ul class="date">
+                            <li>            
+                                <div class="date-box">
+                                    <h4>Avanade<span class="date-range">Nov-2020 - Until now</span></h4>
+                                    <h5>Home office, based at São Paulo</h5>
+                                </div>
+                            </li>
+                            <li>            
+                                <div class="date-box">
+                                    <h4>Firjan<span class="date-range">2012 - 2013</span></h4>
+                                    <h5>Implementation of Azure DevOps and versioning of all project source codes in C# using Git, we managed to 
+                                        shut down the SourceSafe and TFS version control services. Building and maintaining web applications using 
+                                        Razor Pages, MVC and WebForms, SQL Server Database Project – database projects created from visual 
+                                        studio 2019, Azure Database and MariaDB. 
+                                        Versioning of all SSIS - integration services projects with Git within Azure Repos. When the system is 
+                                        developed by a partner who does not have visual studio subscriber licenses and still does not want to 
+                                        purchase Basic licenses to access our repositories within Azure DevOps, we use GitHub – integrating the 
+                                        repositories with our Continuos Integration servers for build and Continuos Deployment for deployment of the 
+                                        artifact on our development servers, testing, homologation and production. 
+                                        During the migration of applications from TFS and SourceSafe to Git, we performed a brutal refactory in the 
+                                        applications, migrating to the 4.8 framework and installing Application Insights to replace the logs generated 
+                                        in the server's EventViewer or in text files (doing I.O. on disk and compromising the performance of the 
+                                        application). Deploying pull request policy from branches with code review and running the continuous 
+                                        integration service to analyze the application build. 
+                                        Implementation of Scrum, using BDD cucumber to enable Product Owners to write user stories, we use 
+                                        SCRUM to manage demands and thus be able to create Sprints with all stories with Story Points. 
+                                        Configuration of CI/CD servers to ensure version control of applications built .net framework, java, php, react 
+                                        and angular 2+. We migrated all development, staging, and production servers from Windows Server 2003 to 
+                                        Windows Server 2016. 
+                                        Support to the infrastructure team for the creation and configuration of App Services (Web App) to host 
+                                        applications that need high availability. 
+                                        About the integration services projects for ComponentModel and now using Visual Studio 2019 with the 
+                                        plugin available in the Microsoft Marketplace for Visual Studio – No longer needing the version of Visual 
+                                        Studio Enterprise. 
+                                        Development of application architecture with MVC, Razor Pages and webAPI with DDD. 
+                                        Implementation of FaultException for SOAP protocol 1.0 and 1.1 using WebServices and Windows 
+                                        Commication Foundation, WCF, with basicHttpBinding and WSHttpBinding. 
+                                        Creation of application documentation using achimate 
+                                        Packaging and distribution using Azure DevOps Artefacts 
+                                        Application Lifecycle Management Policy Deployment 
+                                        Using dll decompilation tools to get source code from applications and redeploy due to not having the version. 
+                                        Creation of documentation in Markdown to be made available on the repositories and company Wiki. </h5>
+                                </div>
+                            </li>
+                        </ul>    
+                    </div>
+                
+                    <div class="skills-section">
+                        <h3 class="main-heading"><span>Technical Skills</span></h3>
+                        <h3 class="left-heading"><span>Languages and Frameworks</span></h3> 
+                        <ul class="date">
+                            <li>            
+                                <div class="date-box">
+                                    <!-- <h4>.NET<span class="date-range">20 anos</span></h4> -->
+                                    <h5>.NET</h5>
+                                </div>
+                            </li>
+                            <!-- <li>            
+                                <div class="date-box">
+                                    <h4>Emporia State University<span class="date-range">2007 - 2011</span></h4>
+                                    <h5>Emporia, Missouri</h5>
+                                </div>
+                            </li> -->
+                            <div class="clear"></div>
+                        </ul>
+                        <h3 class="left-heading"><span>Databases</span></h3> 
+                        <ul class="date">
+                            <li>            
+                                <div class="date-box">
+                                    <h5>MongoDB</h5>
+                                    <h5>CosmosDB For NoSQL</h5>
+                                    <h5>Azure SQL Database</h5>
+                                    <h5>SQLServer</h5>
+                                    <h5>Redis</h5>
+                                    <h5>MySQL</h5>
+                                    <h5>MariaDb</h5>
+                                </div>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+                        <h3 class="left-heading"><span>Cloud</span></h3> 
+                        <ul class="date">
+                            <li>            
+                                <div class="date-box">
+                                    <h5>Azure</h5>
+                                    <h5>AWS</h5>
+                                </div>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+                        <h3 class="left-heading"><span>System Design</span></h3> 
+                        <ul class="date">
+                            <li>            
+                                <div class="date-box">
+                                    <h5>CQRS</h5>
+                                    <h5>Domain-Driven Design</h5>
+                                    <h5>Data-Driven Design</h5>
+                                </div>
+                            </li>
+                            <div class="clear"></div>
+                        </ul>
+                        </div>
+                        
+                </div>
+
+                <div id="portfolio">
+                    <div class="heading">My Latest Projects</div>
+                    <ul id="portfolios">
+                        <li>
+                            <a href="#">
+                                <img src="images/portfolio-image-thumb.png">
+                                <h2 class="portfolio-title">Website 1</h2>
+                                <span class="desc">E-commerce Site</span> 
+                            </a>
+                    	</li>
+                        <li>
+                              <a href="#">
+                                <img src="images/portfolio-image-thumb.png">
+                                <h2 class="portfolio-title">Website 2</h2>
+                                <span class="desc">Dating Site</span> 
+                            </a>
+                    	</li>                        
+                        <li>
+                             <a href="#">
+                                <img src="images/portfolio-image-thumb.png">
+                                <h2 class="portfolio-title">Website 3</h2>
+                                <span class="desc">Social Site</span> 
+                            </a>
+                    	</li>
+                        <li>
+                             <a href="#">
+                                <img src="images/portfolio-image-thumb.png">
+                                <h2 class="portfolio-title">Movie FX</h2>
+                                <span class="desc">Short Film Intro</span> 
+                            </a>
+                    	</li>
+                        
+                    </ul>
+                </div>
+
+				
+                <!-- <div id="connect">
+                     <div class="contact-form">
+                        <h3 class="main-heading"><span>Connect With Us</span></h3>
+                        <form action="" id="connectform">
+                            <p>
+                            	<label for="name">Name</label> <input type="text" name="name" class="input" >
+                            </p>
+                            <p>
+                            	<label for="email">Email</label> <input type="text" name="email" class="input">
+                            </p>
+                            <p>
+                            	<label for="message">Message</label> <textarea name="message" cols="50" rows="6" class="textarea" ></textarea>
+                            </p>
+                            <input type="submit" name="submit" value="Send Now" class="submit">
+                        </form>
+                    </div>
+
+                    </div> -->
+                </div>
+            </div>
+        </div>
+<script>
+		jQuery(document).ready(function(){ 
+			var $content 		= $("#content");
+			$content.easytabs({
+			  animate			: true,
+			  transitionIn		:'slideDown',
+			  transitionOut		:'slideUp',
+			  animationSpeed	:500,
+			  tabs				:"> .menu > ul > li",
+			  tabActiveClass	:'active',
+			});
+		});	
+</script>	
+
     </body>
-    
-    </html>
+	</html>
