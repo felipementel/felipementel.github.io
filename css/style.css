@@ -170,7 +170,7 @@ h1 {
 }
 
 .basic-info {
-  width: 310px;
+  width: auto;
   float: left;
   margin: 10px 0 0 0;
   padding: 20px 0 0 20px;
