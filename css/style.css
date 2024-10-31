@@ -206,6 +206,22 @@ h1 {
   font-weight: bold;
 }
 
+.certifications {
+  float: left;
+  margin: 10px 0 0 0;
+  padding: 20px 0 0 20px;
+  min-height: 240px;
+  margin-left: 10px;
+}
+
+.certifications li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
 /*= RESUME TAB
 --------------------------------------------------------*/
 
