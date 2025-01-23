@@ -378,6 +378,26 @@ Page Styles
     justify-content: flex-end;
 }
 
+.certifications-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espaçamento entre as certificações */
+}
+
+.certification {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.certification img {
+  margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.certification-text {
+  font-size: 14px; /* Ajuste conforme necessário */
+}
+
 .foot-contact, .social-icons ul, .copy-rights {
     display: flex;
     justify-content: flex-end;
