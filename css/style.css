@@ -16,13 +16,6 @@ Base CSS
   padding: 0;
   box-sizing: border-box;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-}
 html {
   height: 100%;
 }
@@ -56,9 +49,6 @@ img {
 }
 input::-moz-focus-inner {
   border: 0;
-}
-bo {
-  outline: none;
 }
 img {
   max-width: 100%;
@@ -319,7 +309,6 @@ Page Styles
 
 .nav {
   flex: 1;
-  /* display: flex; */
   justify-content: flex-end;
   margin: 50px 0px;
 }
@@ -418,6 +407,10 @@ Page Styles
   justify-content: flex-end;
 }
 
+.social-icons {
+  text-align: right;
+}
+
 .social-icons ul li {
   display: flex;
   justify-content: flex-end;
@@ -505,9 +498,6 @@ Page Styles
   display: flex;
 }
 
-.social-icons-head {
-}
-
 .social-icons-head ul li:nth-child(1) a {
   padding-left: 0;
 }
@@ -543,8 +533,8 @@ Page Styles
 
 /* Estilos gerais */
 button {
-  background-color: #4caf50;
-  color: white;
+  background-color: #2e7d32;
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -557,7 +547,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #256628;
 }
 
 /* Estilos específicos para impressão */
@@ -595,8 +585,94 @@ button:hover {
     overflow: visible;
   }
 
+  .p-30 {
+    padding: 16px;
+  }
+
+  .sec-title {
+    margin-bottom: 18px;
+  }
+
+  .section1 .sec-title {
+    display: none;
+  }
+
+  .d-flex-align-center {
+    align-items: flex-start;
+  }
+
+  .user-profile {
+    padding-left: 24px;
+  }
+
+  .name {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+
+  .role {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .text,
+  .pr-list ul li,
+  .certification-text {
+    font-size: 12px;
+  }
+
+  .pr-list {
+    margin: 18px 0;
+  }
+
+  .user-img {
+    max-width: 120px;
+  }
+
+  .certification {
+    margin: 6px;
+  }
+
+  .certification-image,
+  .certification img {
+    width: 72px;
+    height: 72px;
+  }
+
   .container {
     display: block;
+  }
+
+  .social-icons-head ul {
+    display: block;
+  }
+
+  .social-icons-head ul li {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .main-content a.print-link {
+    display: inline;
+    color: transparent;
+    font-size: 0;
+  }
+
+  .main-content a.print-link i {
+    display: none;
+  }
+
+  .main-content a.print-link::before {
+    content: attr(data-print-label) ": ";
+    font-weight: 600;
+    color: #000;
+    font-size: 12px;
+  }
+
+  .main-content a.print-link::after {
+    content: attr(data-print-value, attr(href));
+    color: #000;
+    font-size: 12px;
   }
 
   /* Ajustar outros elementos conforme necessário */
