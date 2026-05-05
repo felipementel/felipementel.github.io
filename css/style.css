@@ -682,5 +682,20 @@ button:hover {
     font-size: 12px;
   }
 
+  .print-page-break-before {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .print-page-break-after {
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .print-avoid-break-inside {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
   /* Ajustar outros elementos conforme necessário */
 }
